@@ -1,4 +1,4 @@
-import { styled } from "@/src/styles";
+import { styled } from "@/styles";
 
 const Button = styled("button", {
   backgroundColor: "$rocketseat",
