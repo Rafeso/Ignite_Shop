@@ -8,7 +8,8 @@
     "check:types": "tsc --pretty --noEmit",
     "check:format": "prettier --check .",
     "check:lint": "eslint . --ext ts --ext tsx --ext js",
-    "cz": "czg",
+    "cz": "czg emoji",
+    "format": "prettier --write .",
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install"
@@ -30,7 +31,7 @@
     "husky": "^8.0.0",
     "prettier": "2.8.4"
   },
-   "config": {
+  "config": {
     "commitizen": {
       "path": "git-cz"
     }
