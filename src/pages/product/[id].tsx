@@ -5,8 +5,11 @@ import Head from "next/head";
 import { useState } from "react";
 import Stripe from "stripe";
 import { stripe } from "@/lib/stripe";
-import { ImageContainer, ProductContainer, ProductDetails } from "@/styles/pages/product";
-
+import {
+  ImageContainer,
+  ProductContainer,
+  ProductDetails,
+} from "@/styles/pages/product";
 
 interface ProductProps {
   product: {

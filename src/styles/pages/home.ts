@@ -8,9 +8,8 @@ export const HomeContainer = styled("main", {
   minHeight: 656,
 
   a: {
-    color: "$gray100"
-  }
-
+    color: "$gray100",
+  },
 });
 
 export const Product = styled("div", {
@@ -19,7 +18,6 @@ export const Product = styled("div", {
   cursor: "pointer",
   position: "relative",
   overflow: "hidden",
-  
 
   display: "flex",
   alignItems: "center",

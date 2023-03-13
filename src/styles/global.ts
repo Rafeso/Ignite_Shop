@@ -18,7 +18,7 @@ export const globalStyles = globalCss({
     fontWeight: 400,
   },
 
-  "a": {
-    color: 'inherit',
-  }
+  a: {
+    color: "inherit",
+  },
 });
