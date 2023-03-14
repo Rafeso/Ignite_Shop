@@ -43,7 +43,9 @@ export default function Success({
         </ImagesContainer>
         <p>
           Uhuul <strong>{customerName}</strong>, sua compra de{" "}
-          {productsImages.length} camisetas já está a caminho da sua casa.
+          {productsImages.length}{" "}
+          {productsImages.length > 1 ? "camisetas" : "camiseta"} já está a
+          caminho da sua casa.
         </p>
 
         <Link href="/">Voltar ao catálogo</Link>
