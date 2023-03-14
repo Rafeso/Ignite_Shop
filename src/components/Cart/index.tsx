@@ -1,3 +1,5 @@
+"use client";
+
 import {
   CartClose,
   CartContent,
@@ -17,9 +19,7 @@ import { useState } from "react";
 
 export function Cart() {
   const { cartItems, removeCartItem, cartTotal } = useCartContext();
-  const cartQuantity = cartItems?.length;
-
-  console.log(cartQuantity);
+  const cartQuantity = cartItems.length;
 
   const formattedCartTotal = new Intl.NumberFormat("pt-BR", {
     style: "currency",
@@ -60,10 +60,8 @@ export function Cart() {
           <h2>Sacola de compras</h2>
 
           <section>
-            {cartItems?.length <= 0 && (
-              <p>Parece que seu carrinho está vazio</p>
-            )}
-            {cartItems?.map((cartItem) => (
+            {cartItems.length <= 0 && <p>Parece que seu carrinho está vazio</p>}
+            {cartItems.map((cartItem) => (
               <CartProduct key={cartItem.id}>
                 <CartProductImage>
                   <Image
