@@ -9,23 +9,32 @@ import { stripe } from "@/lib/stripe";
 import { GetStaticProps } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import { CartButton } from "@/components/CartButton";
+import { useCartContext } from "@/hooks/useCartContext";
+import { IProduct } from "@/contexts/CartContext";
+import { MouseEvent } from "react";
 
 interface HomeProps {
-  products: {
-    id: string;
-    name: string;
-    imageUrl: string;
-    price: number;
-  }[];
+  products: IProduct[];
 }
 
 export default function Home({ products }: HomeProps) {
+  const { addToCart, checkIfItemAlreadyExists } = useCartContext();
+
   const [sliderRef] = useKeenSlider({
     slides: {
       perView: 3,
       spacing: 48,
     },
   });
+
+  function handleAddToCart(
+    e: MouseEvent<HTMLButtonElement>,
+    product: IProduct
+  ) {
+    e.preventDefault();
+    addToCart(product);
+  }
 
   return (
     <>
@@ -42,11 +51,26 @@ export default function Home({ products }: HomeProps) {
               prefetch={false}
             >
               <Product className="keen-slider__slide">
-                <Image src={product.imageUrl} width={520} height={480} alt="" />
+                <Image
+                  src={product.imageUrl}
+                  width={520}
+                  height={480}
+                  placeholder="blur"
+                  blurDataURL={product.imageUrl}
+                  alt=""
+                />
 
                 <footer>
-                  <strong>{product.name}</strong>
-                  <span>{product.price}</span>
+                  <div>
+                    <strong>{product.name}</strong>
+                    <span>{product.price}</span>
+                  </div>
+                  <CartButton
+                    size="large"
+                    color="green"
+                    disabled={checkIfItemAlreadyExists(product.id)}
+                    onClick={(e) => handleAddToCart(e, product)}
+                  />
                 </footer>
               </Product>
             </Link>
