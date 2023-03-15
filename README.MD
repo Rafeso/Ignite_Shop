@@ -35,7 +35,7 @@
 
 <h1 align='center'>Sobre o projeto</h1>
 
-<p align='center'>🛍 Ingite Shop 🛍</p>
+<p align='center'>🛍 Ignite Shop 🛍</p>
 
 Projeto desenvolvido durante o bootcamp **Ignite** oferecido pela [Rocketseat](https://lp.rocketseat.com.br/ignite).
 O Ignite Shop 2.0 foi desenvolvido no quarto módulo da trilha como um desafio de implementar um carrinho que utilizará os dados da API do Stripe para buscar os itens existentes, e controlará, através da sua aplicação, o número de itens que a pessoa deseja comprar.
