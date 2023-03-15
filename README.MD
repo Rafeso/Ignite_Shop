@@ -22,9 +22,9 @@
 </h4>
 
 <p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-layout-e-web">Layout</a> • 
+ <a href="#sobre-o-projeto">Sobre</a> •
+ <a href="#%EF%B8%8F-funcionalidades">Funcionalidades</a> •
+ <a href="#layout-e-web-">Layout</a> • 
  <a href="#-como-executar-o-projeto">Como executar</a> • 
  <a href="#-tecnologias">Tecnologias</a> • 
  <a href="#-autor">Autor</a> • 
@@ -54,7 +54,7 @@ O Ignite Shop 2.0 foi desenvolvido no quarto módulo da trilha como um desafio d
 
 <br>
 
-<h1 align='center'> 💻 Layout e Web 🖌</h1>
+<h1 align='center'>💻Layout e Web🖌</h1>
 
 <p align="center" style='display:flex; gap:1rem; width="100%"'>
   <img alt="Ignite Shop Preview" title="#home_page" src="./.github/Capa.png" width="100%">
