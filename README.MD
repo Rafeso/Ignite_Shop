@@ -14,7 +14,7 @@
  </a>
 
 <h1 align="center">
-    🛍 Ingite Shop 🛍
+    🛍 Ignite Shop 🛍
 </h1>
 
 <h4 align="center"> 
@@ -52,6 +52,8 @@ O Ignite Shop 2.0 foi desenvolvido no quarto módulo da trilha como um desafio d
 
 ---
 
+<br>
+
 <h1 align='center'> 💻 Layout e Web 🖌</h1>
 
 <p align="center" style='display:flex; gap:1rem; width="100%"'>
@@ -66,6 +68,8 @@ O Ignite Shop 2.0 foi desenvolvido no quarto módulo da trilha como um desafio d
     <img alt="Made by Rafeso" src="https://img.shields.io/badge/Acessar%20%20-Web-%2304D361">
   </a>
 </div>
+
+<br>
 
 ---
 
@@ -101,7 +105,7 @@ $ npm run dev
 ```
 
 
----
+<br>
 
 ## 🛠 Tecnologias
 
@@ -122,13 +126,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - Ícones: **[Phosphor Icons](https://phosphoricons.com/)**
 - Fontes: **[Roboto](https://fonts.google.com/specimen/Roboto?query=Roboto)**
 
+<br>
+
 ---
 
 ## 🤝 Agradecimentos
 
 Deixo aqui meus agradecimentos ao exímio programador, e criador de conteúdo [GBDev13](https://github.com/GBDev13). Que com seu video realizando o desafio me ajudou em partes que eu estava sem um plano claro de qual passo eu deveria dar a seguir.
 
----
+<br>
 
 ## 🦸 Autor
 
@@ -148,5 +154,3 @@ Deixo aqui meus agradecimentos ao exímio programador, e criador de conteúdo [G
 Este projeto está sob a licença [MIT](./LICENSE).
 
 Feito com ❤️ por Rafael Feitosa 👋🏽 [Entre em contato!](https://www.linkedin.com/in/rafael-feitosa-618472241/)
-
----
