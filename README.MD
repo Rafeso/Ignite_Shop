@@ -24,7 +24,7 @@
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-layout">Layout</a> • 
+ <a href="#-layout-e-web">Layout</a> • 
  <a href="#-como-executar-o-projeto">Como executar</a> • 
  <a href="#-tecnologias">Tecnologias</a> • 
  <a href="#-autor">Autor</a> • 
@@ -104,6 +104,8 @@ $ npm run dev
 
 ```
 
+<a href="#-----ignite-shop-">**Voltar para o Topo**</a>
+
 
 <br>
 
@@ -125,6 +127,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)** → Extensions: **[ESlint](https://eslint.org/)** **[Prettier](https://prettier.io/)**
 - Ícones: **[Phosphor Icons](https://phosphoricons.com/)**
 - Fontes: **[Roboto](https://fonts.google.com/specimen/Roboto?query=Roboto)**
+
+<a href="#-----ignite-shop-">**Voltar para o Topo**</a>
 
 <br>
 
@@ -154,3 +158,5 @@ Deixo aqui meus agradecimentos ao exímio programador, e criador de conteúdo [G
 Este projeto está sob a licença [MIT](./LICENSE).
 
 Feito com ❤️ por Rafael Feitosa 👋🏽 [Entre em contato!](https://www.linkedin.com/in/rafael-feitosa-618472241/)
+
+<a href="#-----ignite-shop-">**Voltar para o Topo**</a>
