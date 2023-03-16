@@ -50,7 +50,7 @@ export default function Product({ product }: ProductProps) {
           >
             {itemAlreadyInCart
               ? "Produto já está no carrinho"
-              : "Colocar na sacola"}
+              : "Colocar no carrinho"}
           </button>
         </ProductDetails>
       </ProductContainer>
