@@ -113,7 +113,6 @@ $ npm run dev
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- **[React](https://pt-br.reactjs.org/)**
 - **[NextJs](https://nextjs.org/)**
 - **[TypeScript](https://www.typescriptlang.org/)**
 - **[Stitches](https://stitches.dev/)**
